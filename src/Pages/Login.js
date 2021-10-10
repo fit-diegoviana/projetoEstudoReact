@@ -16,7 +16,7 @@ history.push('/main');
       <form onSubmit={handleSubmit}>
       <img src={logo} alt="TinDev"/>
       <input
-      placeholder ="Digitee seu usuário do github"
+      placeholder ="Digite seu usuário do github"
       value={username}
       onChange={e => setUsername (e.target.value)}
       />
